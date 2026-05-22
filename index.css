@@ -1,0 +1,90 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      min-height: 100vh;
+      background-color: #6F6850;
+      background-image: radial-gradient(circle at 30% 20%, #A5696B55 0%, transparent 50%),
+                        radial-gradient(circle at 70% 80%, #E2C47544 0%, transparent 50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Lato', sans-serif;
+      padding: 2rem;
+    }
+
+    .tarjeta {
+      background-color: rgba(225, 199, 176, 0.15);
+      border: 1px solid #E1C7B0;
+      border-radius: 12px;
+      padding: 3rem 4rem;
+      text-align: center;
+      max-width: 500px;
+      width: 100%;
+    }
+
+    .linea-decorativa {
+      width: 50px;
+      height: 3px;
+      background: linear-gradient(to right, #E2C475, #A5696B);
+      margin: 0 auto 1.5rem auto;
+      border-radius: 2px;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      color: #F0D9C0;
+      font-size: 2.6rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitulo {
+      color: #C5BAB7;
+      font-size: 0.85rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+    }
+
+    .linea-decorativa2 {
+      width: 50px;
+      height: 3px;
+      background: linear-gradient(to right, #A5696B, #E2C475);
+      margin: 0 auto 2rem auto;
+      border-radius: 2px;
+    }
+
+    .botones {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    a.btn {
+      text-decoration: none;
+      padding: 0.65rem 1.8rem;
+      background-color: #E2C475;
+      color: #6F6850;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      letter-spacing: 0.08em;
+      transition: background 0.25s, color 0.25s, transform 0.2s;
+      display: inline-block;
+    }
+
+    a.btn:hover {
+      background-color: #A5696B;
+      color: #F0D9C0;
+      transform: translateY(-2px);
+    }
+
+    .pie {
+      margin-top: 2.5rem;
+      color: #C5BAB7;
+      font-size: 0.75rem;
+      letter-spacing: 0.05em;
+      opacity: 0.7;
+    }
